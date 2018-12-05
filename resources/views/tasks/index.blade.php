@@ -52,6 +52,7 @@
 
                     <!-- 表身 -->
                     <tbody>
+
                     @foreach ($tasks as $task)
                         <tr>
 
@@ -66,9 +67,9 @@
                             </td>
                         </tr>
                     @endforeach
+
                     </tbody>
                 </table>
             </div>
         </div>
-
-@endsection
+    @endif
